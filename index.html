@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding and viewport settings for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Food Mobile Website</title>
+
+    <!-- Link to Google Material Icons for menu and search icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu,search" />
+
+    <!-- Link to Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link to Swiper library for image/carousel functionality -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Link to custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Main container for the mobile website content -->
+    <div class="container">
+
+        <!-- Section for additional color schemes or background effects (currently empty) -->
+        <div class="colors_sec">
+
+        </div>
+
+        <!-- Mobile layout wrapper -->
+        <div class="mobile">
+            <div class="child-mobile">
+                
+                <!-- Menu bar section for website-->
+                 <div class="menubar-parent">
+                    <div class="overlay-menu d-none"></div>
+                    <div class="menubar-section">
+                    
+                        <div class="menu">
+                            <h2>Account</h2>
+                            <div class="cross-icon">
+                                <i class="fa-solid fa-xmark cross-f-awesome"></i>
+                            </div>
+                        </div>
+                        <div class="profile-section">
+                            <img src="images/profile.jpg" alt="">
+                            <div class="profile-content">
+                                <h3>Deepak Singh</h3>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+               
+
+                <!-- Header section with the hamburger menu, site name, and search icon -->
+                <div class="header">
+                    <!-- Hamburger menu icon -->
+                    <div class="hamicon">
+                        <span class="material-symbols-outlined menu-hamburger">
+                            menu
+                        </span>
+                    </div>
+                    <!-- Website name -->
+                    <div class="site-name">Foodkuy</div>
+                    <!-- Search icon -->
+                    <div class="search">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Hero section with image carousel -->
+                <div class="herosection">
+                    <div class="swiper">
+                        <!-- Swiper wrapper for slides -->
+                        <div class="swiper-wrapper">
+                            <!-- Individual slide images -->
+                            <div class="swiper-slide">
+                                <img src="images/slide2.jpg" alt="Slide2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slide3.jpg" alt="Slide3">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slide4.jpg" alt="Slide4">
+                            </div>
+                            <!-- Additional slides can be added here -->
+                        </div>
+
+                        <!-- Swiper pagination (for navigating between slides) -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- Swiper scrollbar (optional for slide navigation) -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+
+                <!-- Section showcasing recommended recipes -->
+                <div class="section-home">
+                    <h4 class="section-home-heading">Recipes you might like...</h4>
+                    <div class="swiper2">
+                        <!-- Swiper wrapper for recipe slides -->
+                        <div class="swiper-wrapper">
+                            <!-- First set of recipe images and descriptions -->
+                            <div class="swiper-slide">
+                                <div class="swiper-content">
+                                    <img src="images/food1.jpg" alt="Food1">
+                                    <p>Harvest Salad</p>
+                                </div>
+                                <div class="swiper-content">
+                                    <img src="images/food2.jpg" alt="Food2">
+                                    <p>Harvest Salad</p>
+                                </div>
+                                <div class="swiper-content">
+                                    <img src="images/food3.jpg" alt="Food3">
+                                    <p>Harvest Salad</p>
+                                </div>
+                            </div>
+
+                            <!-- Additional slides for more recipes -->
+                            <div class="swiper-slide">
+                                <div class="swiper-content">
+                                    <img src="images/food4.jpg" alt="Food4">
+                                    <p>Harvest Salad</p>
+                                </div>
+                                <div class="swiper-content">
+                                    <img src="images/food5.jpg" alt="Food5">
+                                    <p>Harvest Salad</p>
+                                </div>
+                                <div class="swiper-content">
+                                    <img src="images/food6.jpg" alt="Food6">
+                                    <p>Harvest Salad</p>
+                                </div>
+                            </div>
+
+                            <!-- Another set of recipe slides -->
+                            <div class="swiper-slide">
+                                <div class="swiper-content">
+                                    <img src="images/food7.jpg" alt="Food7">
+                                    <p>Harvest Salad</p>
+                                </div>
+                                <div class="swiper-content">
+                                    <img src="images/food8.jpg" alt="Food8">
+                                    <p>Harvest Salad</p>
+                                </div>
+                                <div class="swiper-content">
+                                    <img src="images/food9.jpg" alt="Food9">
+                                    <p>Harvest Salad</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Swiper pagination for this section -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- Swiper scrollbar for this section -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+
+                <!-- Section showcasing popular food categories -->
+                <div class="section-home">
+                    <h4 class="section-home-heading">Popular Categories</h4>
+                    <div class="card-section">
+                        <!-- Individual cards for each category -->
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="overlay"></div>
+                                <img src="images/food1.jpg" alt="">
+                                <a href="javascript:void(0);">Quick and Easy</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="overlay"></div>
+                                <img src="images/food2.jpg" alt="">
+                                <a href="javascript:void(0);">Dinner ideas</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="overlay"></div>
+                                <img src="images/food3.jpg" alt="">
+                                <a href="javascript:void(0);">Healthy</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="overlay"></div>
+                                <img src="images/food4.jpg" alt="">
+                                <a href="javascript:void(0);">Vegetarian</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banner section with promotional image -->
+                <div class="section-home-banner">
+                    <img src="images/banner.jpg" alt="Promotional Banner">
+                </div>
+
+                <!-- News and tips section -->
+                <div class="section-home">
+                    <h4 class="section-home-heading">News & Tips</h4>
+                    <!-- Individual news items -->
+                    <div class="news-section">
+                        <div class="news-sec-img">
+                            <img src="images/news.jpg" alt="">
+                        </div>
+                        <div class="news-sec-content">
+                            <h5>15 Totally Healthy Grilling Recipes</h5>
+                            <p>Lorem ipsum dolor sit amet, adipiscing elit...</p>
+                        </div>
+                    </div>
+
+                    <div class="news-section">
+                        <div class="news-sec-img">
+                            <img src="images/news.jpg" alt="">
+                        </div>
+                        <div class="news-sec-content">
+                            <h5>15 Totally Healthy Grilling Recipes</h5>
+                            <p>Lorem ipsum dolor sit amet, adipiscing elit...</p>
+                        </div>
+                    </div>
+
+                    <div class="news-section">
+                        <div class="news-sec-img">
+                            <img src="images/news.jpg" alt="">
+                        </div>
+                        <div class="news-sec-content">
+                            <h5>15 Totally Healthy Grilling Recipes</h5>
+                            <p>Lorem ipsum dolor sit amet, adipiscing elit...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer section with social media icons -->
+                <div class="footer">
+                    <h4>Follow Us</h4>
+                    <div class="icon-section">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JavaScript library for carousel functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Link to custom JavaScript (for interactivity) -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
